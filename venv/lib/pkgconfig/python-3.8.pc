@@ -1,5 +1,5 @@
 # See: man pkg-config
-prefix=/Users/vishal/Desktop/project/ML_project/venv
+prefix=/Users/vishal/Desktop/project/ML_Project/venv
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

@@ -8,17 +8,17 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wno-unused-result -Wsign-compare',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/Users/vishal/Desktop/project/ML_project/venv/bin',
- 'BINLIBDEST': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8',
+ 'BINDIR': '/Users/vishal/Desktop/project/ML_Project/venv/bin',
+ 'BINLIBDEST': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8',
  'BLDLIBRARY': 'libpython3.8.a',
  'BLDSHARED': 'x86_64-conda_cos6-linux-gnu-gcc -pthread -shared -Wl,-O2 '
               '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-              '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-              '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+              '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+              '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
               '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
               '-Wl,-z,now '
-              '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-              '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+              '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+              '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
               '   '
               '',
  'BUILDEXE': '',
@@ -46,18 +46,18 @@ build_time_vars = {'ABIFLAGS': '',
                             '-Wno-unused-parameter '
                             '-Wno-missing-field-initializers',
  'CONFIGURE_CPPFLAGS': '-D_FORTIFY_SOURCE=2 -O2 '
-                       '-I/Users/vishal/Desktop/project/ML_project/venv/include',
+                       '-I/Users/vishal/Desktop/project/ML_Project/venv/include',
  'CONFIGURE_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                       '-Wl,-z,now '
-                      '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-                      '-L/Users/vishal/Desktop/project/ML_project/venv/lib',
- 'CONFIG_ARGS': "'--prefix=/Users/vishal/Desktop/project/ML_project/venv' "
+                      '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+                      '-L/Users/vishal/Desktop/project/ML_Project/venv/lib',
+ 'CONFIG_ARGS': "'--prefix=/Users/vishal/Desktop/project/ML_Project/venv' "
                 "'--build=x86_64-conda_cos6-linux-gnu' "
                 "'--host=x86_64-conda_cos6-linux-gnu' '--enable-ipv6' "
                 "'--with-ensurepip=no' '--with-computed-gotos' "
                 "'--with-system-ffi' '--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/Users/vishal/Desktop/project/ML_project/venv/include' "
-                "'--with-tcltk-libs=-L/Users/vishal/Desktop/project/ML_project/venv/lib "
+                "'--with-tcltk-includes=-I/Users/vishal/Desktop/project/ML_Project/venv/include' "
+                "'--with-tcltk-libs=-L/Users/vishal/Desktop/project/ML_Project/venv/lib "
                 "-ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' "
                 "'--disable-shared' 'build_alias=x86_64-conda_cos6-linux-gnu' "
                 "'host_alias=x86_64-conda_cos6-linux-gnu' "
@@ -67,14 +67,14 @@ build_time_vars = {'ABIFLAGS': '',
                 '   '
                 "' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed "
                 '-Wl,-z,relro -Wl,-z,now '
-                '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-                "-L/Users/vishal/Desktop/project/ML_project/venv/lib' "
+                '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+                "-L/Users/vishal/Desktop/project/ML_Project/venv/lib' "
                 "'CPPFLAGS=-D_FORTIFY_SOURCE=2 -O2 "
-                "-I/Users/vishal/Desktop/project/ML_project/venv/include' "
-                "'CPP=/Users/vishal/Desktop/project/ML_project/venv/bin/x86_64-conda_cos6-linux-gnu-cpp' "
-                "'PKG_CONFIG_PATH=/Users/vishal/Desktop/project/ML_project/venv/lib/pkgconfig'",
- 'CONFINCLUDEDIR': '/Users/vishal/Desktop/project/ML_project/venv/include',
- 'CONFINCLUDEPY': '/Users/vishal/Desktop/project/ML_project/venv/include/python3.8',
+                "-I/Users/vishal/Desktop/project/ML_Project/venv/include' "
+                "'CPP=/Users/vishal/Desktop/project/ML_Project/venv/bin/x86_64-conda_cos6-linux-gnu-cpp' "
+                "'PKG_CONFIG_PATH=/Users/vishal/Desktop/project/ML_Project/venv/lib/pkgconfig'",
+ 'CONFINCLUDEDIR': '/Users/vishal/Desktop/project/ML_Project/venv/include',
+ 'CONFINCLUDEPY': '/Users/vishal/Desktop/project/ML_Project/venv/include/python3.8',
  'COREPYTHONPATH': ':',
  'COVERAGE_INFO': '/tmp/build/80754af9/python_1510184704423/work/build-static/coverage.info',
  'COVERAGE_REPORT': '/tmp/build/80754af9/python_1510184704423/work/build-static/lcov-report',
@@ -83,17 +83,17 @@ build_time_vars = {'ABIFLAGS': '',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I/tmp/build/80754af9/python_1510184704423/work/Include '
              '-D_FORTIFY_SOURCE=2 -O2 '
-             '-I/Users/vishal/Desktop/project/ML_project/venv/include '
+             '-I/Users/vishal/Desktop/project/ML_Project/venv/include '
              '-D_FORTIFY_SOURCE=2 -O2 '
-             '-I/Users/vishal/Desktop/project/ML_project/venv/include',
+             '-I/Users/vishal/Desktop/project/ML_Project/venv/include',
  'CXX': 'x86_64-conda_cos6-linux-gnu-c++ -pthread',
- 'DESTDIRS': '/Users/vishal/Desktop/project/ML_project/venv '
-             '/Users/vishal/Desktop/project/ML_project/venv/lib '
-             '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8 '
-             '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8/lib-dynload',
- 'DESTLIB': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8',
+ 'DESTDIRS': '/Users/vishal/Desktop/project/ML_Project/venv '
+             '/Users/vishal/Desktop/project/ML_Project/venv/lib '
+             '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8 '
+             '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8/lib-dynload',
+ 'DESTLIB': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8',
  'DESTPATH': '',
- 'DESTSHARED': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8/lib-dynload',
+ 'DESTSHARED': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -507,12 +507,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'x86_64-conda_cos6-linux-gnu',
- 'INCLDIRSTOMAKE': '/Users/vishal/Desktop/project/ML_project/venv/include '
-                   '/Users/vishal/Desktop/project/ML_project/venv/include '
-                   '/Users/vishal/Desktop/project/ML_project/venv/include/python3.8 '
-                   '/Users/vishal/Desktop/project/ML_project/venv/include/python3.8',
- 'INCLUDEDIR': '/Users/vishal/Desktop/project/ML_project/venv/include',
- 'INCLUDEPY': '/Users/vishal/Desktop/project/ML_project/venv/include/python3.8',
+ 'INCLDIRSTOMAKE': '/Users/vishal/Desktop/project/ML_Project/venv/include '
+                   '/Users/vishal/Desktop/project/ML_Project/venv/include '
+                   '/Users/vishal/Desktop/project/ML_Project/venv/include/python3.8 '
+                   '/Users/vishal/Desktop/project/ML_Project/venv/include/python3.8',
+ 'INCLUDEDIR': '/Users/vishal/Desktop/project/ML_Project/venv/include',
+ 'INCLUDEPY': '/Users/vishal/Desktop/project/ML_Project/venv/include/python3.8',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -523,34 +523,34 @@ build_time_vars = {'ABIFLAGS': '',
  'IO_OBJS': '\\',
  'LDCXXSHARED': 'x86_64-conda_cos6-linux-gnu-c++ -pthread -shared',
  'LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-            '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-            '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+            '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+            '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
             '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-            '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-            '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+            '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+            '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
             '   ',
  'LDLAST': '',
  'LDLIBRARY': 'libpython3.8.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'x86_64-conda_cos6-linux-gnu-gcc -pthread -shared -Wl,-O2 '
              '-Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now '
-             '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-             '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+             '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+             '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
              '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
              '-Wl,-z,now '
-             '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-             '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+             '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+             '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
              '   ',
  'LDVERSION': '3.8',
  'LIBC': '',
- 'LIBDEST': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8',
- 'LIBDIR': '/Users/vishal/Desktop/project/ML_project/venv/lib',
- 'LIBFFI_INCLUDEDIR': '/Users/vishal/Desktop/project/ML_project/venv/include',
+ 'LIBDEST': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8',
+ 'LIBDIR': '/Users/vishal/Desktop/project/ML_Project/venv/lib',
+ 'LIBFFI_INCLUDEDIR': '/Users/vishal/Desktop/project/ML_Project/venv/include',
  'LIBM': '-lm',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/Users/vishal/Desktop/project/ML_project/venv/lib/pkgconfig',
- 'LIBPL': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8/config-3.8-x86_64-linux-gnu',
+ 'LIBPC': '/Users/vishal/Desktop/project/ML_Project/venv/lib/pkgconfig',
+ 'LIBPL': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8/config-3.8-x86_64-linux-gnu',
  'LIBRARY': 'libpython3.8.a',
  'LIBRARY_OBJS': '\\',
  'LIBRARY_OBJS_OMIT_FROZEN': '\\',
@@ -568,13 +568,13 @@ build_time_vars = {'ABIFLAGS': '',
  'MACHDEP': 'linux',
  'MACHDEPPATH': ':',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8',
+ 'MACHDESTLIB': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8',
  'MACOSX_DEPLOYMENT_TARGET': '',
  'MAINCC': 'x86_64-conda_cos6-linux-gnu-gcc -pthread',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': '/tmp/build/80754af9/python_1510184704423/work/Modules/makesetup',
- 'MANDIR': '/Users/vishal/Desktop/project/ML_project/venv/share/man',
+ 'MANDIR': '/Users/vishal/Desktop/project/ML_Project/venv/share/man',
  'MKDIR_P': '/bin/mkdir -p',
  'MODLIBS': '',
  'MODNAMES': '_thread posix errno pwd _sre _codecs _weakref _functools '
@@ -667,25 +667,25 @@ build_time_vars = {'ABIFLAGS': '',
                    '-IObjects -IInclude -IPython -I. '
                    '-I/tmp/build/80754af9/python_1510184704423/work/Include '
                    '-D_FORTIFY_SOURCE=2 -O2 '
-                   '-I/Users/vishal/Desktop/project/ML_project/venv/include '
+                   '-I/Users/vishal/Desktop/project/ML_Project/venv/include '
                    '-D_FORTIFY_SOURCE=2 -O2 '
-                   '-I/Users/vishal/Desktop/project/ML_project/venv/include  '
+                   '-I/Users/vishal/Desktop/project/ML_Project/venv/include  '
                    '-DPy_BUILD_CORE',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I/tmp/build/80754af9/python_1510184704423/work/Include '
                 '-D_FORTIFY_SOURCE=2 -O2 '
-                '-I/Users/vishal/Desktop/project/ML_project/venv/include '
+                '-I/Users/vishal/Desktop/project/ML_Project/venv/include '
                 '-D_FORTIFY_SOURCE=2 -O2 '
-                '-I/Users/vishal/Desktop/project/ML_project/venv/include',
+                '-I/Users/vishal/Desktop/project/ML_Project/venv/include',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now '
-               '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-               '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+               '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+               '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
                '-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro '
                '-Wl,-z,now '
-               '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-               '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+               '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+               '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
                '   '
                '',
  'Py_DEBUG': 0,
@@ -697,7 +697,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/Users/vishal/Desktop/project/ML_project/venv/lib',
+ 'SCRIPTDIR': '/Users/vishal/Desktop/project/ML_Project/venv/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SGI_ABI': '',
  'SHELL': '/bin/sh',
@@ -733,8 +733,8 @@ build_time_vars = {'ABIFLAGS': '',
  'SYSLIBS': '-lm',
  'SYS_SELECT_WITH_SYS_TIME': 1,
  'TANH_PRESERVES_ZERO_SIGN': 1,
- 'TCLTK_INCLUDES': '-I/Users/vishal/Desktop/project/ML_project/venv/include',
- 'TCLTK_LIBS': '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+ 'TCLTK_INCLUDES': '-I/Users/vishal/Desktop/project/ML_Project/venv/include',
+ 'TCLTK_LIBS': '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
                '-ltcl8.6 -ltk8.6',
  'TESTOPTS': '',
  'TESTPATH': '',
@@ -767,7 +767,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '/tmp/build/80754af9/python_1510184704423/work/build-static',
  'abs_srcdir': '/tmp/build/80754af9/python_1510184704423/work',
- 'datarootdir': '/Users/vishal/Desktop/project/ML_project/venv/share',
- 'exec_prefix': '/Users/vishal/Desktop/project/ML_project/venv',
- 'prefix': '/Users/vishal/Desktop/project/ML_project/venv',
+ 'datarootdir': '/Users/vishal/Desktop/project/ML_Project/venv/share',
+ 'exec_prefix': '/Users/vishal/Desktop/project/ML_Project/venv',
+ 'prefix': '/Users/vishal/Desktop/project/ML_Project/venv',
  'srcdir': '/tmp/build/80754af9/python_1510184704423/work'}

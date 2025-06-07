@@ -282,9 +282,6 @@
 /* Define to 1 if you have the `dup3' function. */
 /* #undef HAVE_DUP3 */
 
-/* Define if you have the '_dyld_shared_cache_contains_path' function. */
-#define HAVE_DYLD_SHARED_CACHE_CONTAINS_PATH 1
-
 /* Defined when any dynamic module loading is enabled. */
 #define HAVE_DYNAMIC_LOADING 1
 
@@ -775,6 +772,9 @@
 
 /* Define if you have the 'prlimit' functions. */
 /* #undef HAVE_PRLIMIT */
+
+/* Define if you have the '_dyld_shared_cache_contains_path' function. */
+#define HAVE_DYLD_SHARED_CACHE_CONTAINS_PATH 1
 
 /* Define to 1 if you have the <process.h> header file. */
 /* #undef HAVE_PROCESS_H */

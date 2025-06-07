@@ -8,18 +8,18 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-fno-strict-aliasing -Wsign-compare -Wunreachable-code',
  'BASECPPFLAGS': '-IObjects -IInclude -IPython',
  'BASEMODLIBS': '',
- 'BINDIR': '/Users/vishal/Desktop/project/ML_project/venv/bin',
- 'BINLIBDEST': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8',
+ 'BINDIR': '/Users/vishal/Desktop/project/ML_Project/venv/bin',
+ 'BINLIBDEST': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8',
  'BLDLIBRARY': 'libpython3.8.a',
  'BLDSHARED': 'arm64-apple-darwin20.0.0-clang -bundle -undefined '
               'dynamic_lookup -Wl,-pie -Wl,-headerpad_max_install_names '
               '-Wl,-dead_strip_dylibs '
-              '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-              '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+              '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+              '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
               '-flto -Wl,-export_dynamic -Wl,-pie '
               '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-              '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-              '-L/Users/vishal/Desktop/project/ML_project/venv/lib',
+              '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+              '-L/Users/vishal/Desktop/project/ML_Project/venv/lib',
  'BUILDEXE': '.exe',
  'BUILDPYTHON': 'python.exe',
  'BUILD_GNU_TYPE': 'arm64-apple-darwin20.0.0',
@@ -31,7 +31,7 @@ build_time_vars = {'ABIFLAGS': '',
            '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O3 '
            '-pipe  '
            '-fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} '
-           '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_project/venv=/usr/local/src/conda-prefix '
+           '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_Project/venv=/usr/local/src/conda-prefix '
            '-flto -Wl,-export_dynamic '
            '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O3 ',
  'CFLAGSFORSHARED': '',
@@ -41,23 +41,23 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGURE_CFLAGS': '-ftree-vectorize '
                      '-fPIC -fPIE -fstack-protector-strong -O3 -pipe  '
                      '-fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} '
-                     '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_project/venv=/usr/local/src/conda-prefix '
+                     '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_Project/venv=/usr/local/src/conda-prefix '
                      '-flto -Wl,-export_dynamic',
  'CONFIGURE_CFLAGS_NODIST': '-std=c99 -Werror=implicit-function-declaration',
  'CONFIGURE_CPPFLAGS': '-D_FORTIFY_SOURCE=2 -mmacosx-version-min=11.0 '
-                       '-I/Users/vishal/Desktop/project/ML_project/venv/include',
+                       '-I/Users/vishal/Desktop/project/ML_Project/venv/include',
  'CONFIGURE_LDFLAGS': '-Wl,-pie -Wl,-headerpad_max_install_names '
                       '-Wl,-dead_strip_dylibs '
-                      '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-                      '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+                      '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+                      '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
                       '-flto -Wl,-export_dynamic',
- 'CONFIG_ARGS': "'--prefix=/Users/vishal/Desktop/project/ML_project/venv' "
+ 'CONFIG_ARGS': "'--prefix=/Users/vishal/Desktop/project/ML_Project/venv' "
                 "'--build=arm64-apple-darwin20.0.0' "
                 "'--host=arm64-apple-darwin20.0.0' '--enable-ipv6' "
                 "'--with-ensurepip=no' '--with-computed-gotos' "
                 "'--with-system-ffi' '--enable-loadable-sqlite-extensions' "
-                "'--with-tcltk-includes=-I/Users/vishal/Desktop/project/ML_project/venv/include' "
-                "'--with-tcltk-libs=-L/Users/vishal/Desktop/project/ML_project/venv/lib "
+                "'--with-tcltk-includes=-I/Users/vishal/Desktop/project/ML_Project/venv/include' "
+                "'--with-tcltk-libs=-L/Users/vishal/Desktop/project/ML_Project/venv/lib "
                 "-ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' "
                 "'--disable-shared' 'build_alias=arm64-apple-darwin20.0.0' "
                 "'host_alias=arm64-apple-darwin20.0.0' "
@@ -65,16 +65,16 @@ build_time_vars = {'ABIFLAGS': '',
                 '-ftree-vectorize -fPIC -fPIE '
                 '-fstack-protector-strong -O3 -pipe  '
                 '-fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} '
-                '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_project/venv=/usr/local/src/conda-prefix '
+                '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_Project/venv=/usr/local/src/conda-prefix '
                 "-flto' 'LDFLAGS=-Wl,-pie -Wl,-headerpad_max_install_names "
                 '-Wl,-dead_strip_dylibs '
-                '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-                "-L/Users/vishal/Desktop/project/ML_project/venv/lib' "
+                '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+                "-L/Users/vishal/Desktop/project/ML_Project/venv/lib' "
                 "'CPPFLAGS=-D_FORTIFY_SOURCE=2 -mmacosx-version-min=11.0 "
-                "-I/Users/vishal/Desktop/project/ML_project/venv/include' "
-                "'PKG_CONFIG_PATH=/Users/vishal/Desktop/project/ML_project/venv/lib/pkgconfig'",
- 'CONFINCLUDEDIR': '/Users/vishal/Desktop/project/ML_project/venv/include',
- 'CONFINCLUDEPY': '/Users/vishal/Desktop/project/ML_project/venv/include/python3.8',
+                "-I/Users/vishal/Desktop/project/ML_Project/venv/include' "
+                "'PKG_CONFIG_PATH=/Users/vishal/Desktop/project/ML_Project/venv/lib/pkgconfig'",
+ 'CONFINCLUDEDIR': '/Users/vishal/Desktop/project/ML_Project/venv/include',
+ 'CONFINCLUDEPY': '/Users/vishal/Desktop/project/ML_Project/venv/include/python3.8',
  'COREPYTHONPATH': '',
  'COVERAGE_INFO': '${SRC_DIR}/build-static/coverage.info',
  'COVERAGE_REPORT': '${SRC_DIR}/build-static/lcov-report',
@@ -83,17 +83,17 @@ build_time_vars = {'ABIFLAGS': '',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
              '-I${SRC_DIR}/Include '
              '-D_FORTIFY_SOURCE=2 -mmacosx-version-min=11.0 '
-             '-I/Users/vishal/Desktop/project/ML_project/venv/include '
+             '-I/Users/vishal/Desktop/project/ML_Project/venv/include '
              '-D_FORTIFY_SOURCE=2 -mmacosx-version-min=11.0 '
-             '-I/Users/vishal/Desktop/project/ML_project/venv/include',
+             '-I/Users/vishal/Desktop/project/ML_Project/venv/include',
  'CXX': 'arm64-apple-darwin20.0.0-clang++',
- 'DESTDIRS': '/Users/vishal/Desktop/project/ML_project/venv '
-             '/Users/vishal/Desktop/project/ML_project/venv/lib '
-             '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8 '
-             '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8/lib-dynload',
- 'DESTLIB': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8',
+ 'DESTDIRS': '/Users/vishal/Desktop/project/ML_Project/venv '
+             '/Users/vishal/Desktop/project/ML_Project/venv/lib '
+             '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8 '
+             '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8/lib-dynload',
+ 'DESTLIB': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8',
  'DESTPATH': '',
- 'DESTSHARED': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8/lib-dynload',
+ 'DESTSHARED': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DIST': 'README.rst ChangeLog configure configure.ac acconfig.h pyconfig.h.in '
@@ -525,12 +525,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
  'HOST_GNU_TYPE': 'arm64-apple-darwin20.0.0',
- 'INCLDIRSTOMAKE': '/Users/vishal/Desktop/project/ML_project/venv/include '
-                   '/Users/vishal/Desktop/project/ML_project/venv/include '
-                   '/Users/vishal/Desktop/project/ML_project/venv/include/python3.8 '
-                   '/Users/vishal/Desktop/project/ML_project/venv/include/python3.8',
- 'INCLUDEDIR': '/Users/vishal/Desktop/project/ML_project/venv/include',
- 'INCLUDEPY': '/Users/vishal/Desktop/project/ML_project/venv/include/python3.8',
+ 'INCLDIRSTOMAKE': '/Users/vishal/Desktop/project/ML_Project/venv/include '
+                   '/Users/vishal/Desktop/project/ML_Project/venv/include '
+                   '/Users/vishal/Desktop/project/ML_Project/venv/include/python3.8 '
+                   '/Users/vishal/Desktop/project/ML_Project/venv/include/python3.8',
+ 'INCLUDEDIR': '/Users/vishal/Desktop/project/ML_Project/venv/include',
+ 'INCLUDEPY': '/Users/vishal/Desktop/project/ML_Project/venv/include/python3.8',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -542,34 +542,34 @@ build_time_vars = {'ABIFLAGS': '',
  'LDCXXSHARED': 'arm64-apple-darwin20.0.0-clang++ -bundle -undefined '
                 'dynamic_lookup',
  'LDFLAGS': '-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-            '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-            '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+            '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+            '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
             '-flto -Wl,-export_dynamic -Wl,-pie '
             '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-            '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-            '-L/Users/vishal/Desktop/project/ML_project/venv/lib',
+            '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+            '-L/Users/vishal/Desktop/project/ML_Project/venv/lib',
  'LDLAST': '',
  'LDLIBRARY': 'libpython3.8.a',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'arm64-apple-darwin20.0.0-clang -bundle -undefined '
              'dynamic_lookup -Wl,-pie -Wl,-headerpad_max_install_names '
              '-Wl,-dead_strip_dylibs '
-             '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-             '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+             '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+             '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
              '-flto -Wl,-export_dynamic -Wl,-pie '
              '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-             '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-             '-L/Users/vishal/Desktop/project/ML_project/venv/lib',
+             '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+             '-L/Users/vishal/Desktop/project/ML_Project/venv/lib',
  'LDVERSION': '3.8',
  'LIBC': '',
- 'LIBDEST': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8',
- 'LIBDIR': '/Users/vishal/Desktop/project/ML_project/venv/lib',
- 'LIBFFI_INCLUDEDIR': '/Users/vishal/Desktop/project/ML_project/venv/include',
+ 'LIBDEST': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8',
+ 'LIBDIR': '/Users/vishal/Desktop/project/ML_Project/venv/lib',
+ 'LIBFFI_INCLUDEDIR': '/Users/vishal/Desktop/project/ML_Project/venv/include',
  'LIBM': '',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/Users/vishal/Desktop/project/ML_project/venv/lib/pkgconfig',
- 'LIBPL': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8/config-3.8-darwin',
+ 'LIBPC': '/Users/vishal/Desktop/project/ML_Project/venv/lib/pkgconfig',
+ 'LIBPL': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8/config-3.8-darwin',
  'LIBRARY': 'libpython3.8.a',
  'LIBRARY_OBJS': '\\',
  'LIBRARY_OBJS_OMIT_FROZEN': '\\',
@@ -587,13 +587,13 @@ build_time_vars = {'ABIFLAGS': '',
  'LOG1P_DROPS_ZERO_SIGN': 0,
  'MACHDEP': 'darwin',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/Users/vishal/Desktop/project/ML_project/venv/lib/python3.8',
+ 'MACHDESTLIB': '/Users/vishal/Desktop/project/ML_Project/venv/lib/python3.8',
  'MACOSX_DEPLOYMENT_TARGET': '11.0',
  'MAINCC': 'arm64-apple-darwin20.0.0-clang',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
  'MAKESETUP': '${SRC_DIR}/Modules/makesetup',
- 'MANDIR': '/Users/vishal/Desktop/project/ML_project/venv/share/man',
+ 'MANDIR': '/Users/vishal/Desktop/project/ML_Project/venv/share/man',
  'MKDIR_P': '${SRC_DIR}/install-sh -c -d',
  'MODBUILT_NAMES': 'posix  errno  pwd  _sre  _codecs  _weakref  _functools  '
                    '_operator  _collections  _abc  itertools  atexit  _signal  '
@@ -620,8 +620,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MVWDELCH_IS_EXPRESSION': 1,
  'NO_AS_NEEDED': '',
  'OBJECT_OBJS': '\\',
- 'OPENSSL_INCLUDES': '-I/Users/vishal/Desktop/project/ML_project/venv/include',
- 'OPENSSL_LDFLAGS': '-L/Users/vishal/Desktop/project/ML_project/venv/lib',
+ 'OPENSSL_INCLUDES': '-I/Users/vishal/Desktop/project/ML_Project/venv/include',
+ 'OPENSSL_LDFLAGS': '-L/Users/vishal/Desktop/project/ML_Project/venv/lib',
  'OPENSSL_LIBS': '-lssl -lcrypto',
  'OPT': '-DNDEBUG -fwrapv -O3 -Wall -Wstrict-prototypes',
  'OTHER_LIBTOOL_OPT': '',
@@ -662,18 +662,18 @@ build_time_vars = {'ABIFLAGS': '',
               '-ftree-vectorize -fPIC -fPIE '
               '-fstack-protector-strong -O3 -pipe  '
               '-fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} '
-              '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_project/venv=/usr/local/src/conda-prefix '
+              '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_Project/venv=/usr/local/src/conda-prefix '
               '-flto -flto -Wl,-export_dynamic '
               '-ftree-vectorize -fPIC -fPIE -fstack-protector-strong '
               '-O3 -pipe  '
               '-fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} '
-              '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_project/venv=/usr/local/src/conda-prefix '
+              '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_Project/venv=/usr/local/src/conda-prefix '
               '-flto',
  'PY_CFLAGS_NODIST': '-std=c99 -Werror=implicit-function-declaration '
                      '-ftree-vectorize '
                      '-fPIC -fPIE -fstack-protector-strong -O3 -pipe  '
                      '-fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} '
-                     '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_project/venv=/usr/local/src/conda-prefix '
+                     '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_Project/venv=/usr/local/src/conda-prefix '
                      '-flto -fprofile-instr-use=code.profclangd',
  'PY_COERCE_C_LOCALE': 1,
  'PY_CORE_CFLAGS': '-fno-strict-aliasing -Wsign-compare -Wunreachable-code '
@@ -681,40 +681,40 @@ build_time_vars = {'ABIFLAGS': '',
                    '-ftree-vectorize -fPIC '
                    '-fPIE -fstack-protector-strong -O3 -pipe  '
                    '-fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} '
-                   '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_project/venv=/usr/local/src/conda-prefix '
+                   '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_Project/venv=/usr/local/src/conda-prefix '
                    '-flto -flto -Wl,-export_dynamic '
                    '-ftree-vectorize -fPIC -fPIE '
                    '-fstack-protector-strong -O3 -pipe  '
                    '-fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} '
-                   '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_project/venv=/usr/local/src/conda-prefix '
+                   '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_Project/venv=/usr/local/src/conda-prefix '
                    '-flto -std=c99 -Werror=implicit-function-declaration '
                    '-ftree-vectorize -fPIC '
                    '-fPIE -fstack-protector-strong -O3 -pipe  '
                    '-fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} '
-                   '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_project/venv=/usr/local/src/conda-prefix '
+                   '-fdebug-prefix-map=/Users/vishal/Desktop/project/ML_Project/venv=/usr/local/src/conda-prefix '
                    '-flto -fprofile-instr-use=code.profclangd -IObjects '
                    '-IInclude -IPython -I. '
                    '-I${SRC_DIR}/Include '
                    '-D_FORTIFY_SOURCE=2 -mmacosx-version-min=11.0 '
-                   '-I/Users/vishal/Desktop/project/ML_project/venv/include '
+                   '-I/Users/vishal/Desktop/project/ML_Project/venv/include '
                    '-D_FORTIFY_SOURCE=2 -mmacosx-version-min=11.0 '
-                   '-I/Users/vishal/Desktop/project/ML_project/venv/include  '
+                   '-I/Users/vishal/Desktop/project/ML_Project/venv/include  '
                    '-DPy_BUILD_CORE',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
                 '-I${SRC_DIR}/Include '
                 '-D_FORTIFY_SOURCE=2 -mmacosx-version-min=11.0 '
-                '-I/Users/vishal/Desktop/project/ML_project/venv/include '
+                '-I/Users/vishal/Desktop/project/ML_Project/venv/include '
                 '-D_FORTIFY_SOURCE=2 -mmacosx-version-min=11.0 '
-                '-I/Users/vishal/Desktop/project/ML_project/venv/include',
+                '-I/Users/vishal/Desktop/project/ML_Project/venv/include',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '-Wl,-pie -Wl,-headerpad_max_install_names '
                '-Wl,-dead_strip_dylibs '
-               '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-               '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+               '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+               '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
                '-flto -Wl,-export_dynamic -Wl,-pie '
                '-Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs '
-               '-Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib '
-               '-L/Users/vishal/Desktop/project/ML_project/venv/lib',
+               '-Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib '
+               '-L/Users/vishal/Desktop/project/ML_Project/venv/lib',
  'PY_SSL_DEFAULT_CIPHERS': 1,
  'PY_SSL_DEFAULT_CIPHER_STRING': 0,
  'PY_WARN_ON_C_LOCALE': 1,
@@ -726,7 +726,7 @@ build_time_vars = {'ABIFLAGS': '',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
  'RUNSHARED': '',
- 'SCRIPTDIR': '/Users/vishal/Desktop/project/ML_project/venv/lib',
+ 'SCRIPTDIR': '/Users/vishal/Desktop/project/ML_Project/venv/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SGI_ABI': '',
  'SHELL': '/bin/sh',
@@ -763,8 +763,8 @@ build_time_vars = {'ABIFLAGS': '',
  'SYSLIBS': '',
  'SYS_SELECT_WITH_SYS_TIME': 1,
  'TANH_PRESERVES_ZERO_SIGN': 1,
- 'TCLTK_INCLUDES': '-I/Users/vishal/Desktop/project/ML_project/venv/include',
- 'TCLTK_LIBS': '-L/Users/vishal/Desktop/project/ML_project/venv/lib '
+ 'TCLTK_INCLUDES': '-I/Users/vishal/Desktop/project/ML_Project/venv/include',
+ 'TCLTK_LIBS': '-L/Users/vishal/Desktop/project/ML_Project/venv/lib '
                '-ltcl8.6 -ltk8.6',
  'TESTOPTS': '',
  'TESTPATH': '',
@@ -795,7 +795,7 @@ build_time_vars = {'ABIFLAGS': '',
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
  'abs_builddir': '${SRC_DIR}/build-static',
  'abs_srcdir': '${SRC_DIR}',
- 'datarootdir': '/Users/vishal/Desktop/project/ML_project/venv/share',
- 'exec_prefix': '/Users/vishal/Desktop/project/ML_project/venv',
- 'prefix': '/Users/vishal/Desktop/project/ML_project/venv',
+ 'datarootdir': '/Users/vishal/Desktop/project/ML_Project/venv/share',
+ 'exec_prefix': '/Users/vishal/Desktop/project/ML_Project/venv',
+ 'prefix': '/Users/vishal/Desktop/project/ML_Project/venv',
  'srcdir': '${SRC_DIR}'}

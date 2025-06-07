@@ -28,17 +28,17 @@ MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)
 
 # === Variables set by configure
 VERSION=	3.8
-srcdir=		/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_16pxg4ho0y/croot/python-split_1727968619061/work
-VPATH=		/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_16pxg4ho0y/croot/python-split_1727968619061/work
-abs_srcdir=	/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_16pxg4ho0y/croot/python-split_1727968619061/work
-abs_builddir=	/private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_16pxg4ho0y/croot/python-split_1727968619061/work/build-static
+srcdir=		/Users/runner/miniforge3/conda-bld/python-split_1632942672842/work
+VPATH=		/Users/runner/miniforge3/conda-bld/python-split_1632942672842/work
+abs_srcdir=	/Users/runner/miniforge3/conda-bld/python-split_1632942672842/work
+abs_builddir=	/Users/runner/miniforge3/conda-bld/python-split_1632942672842/work/build-static
 
 
 CC=		arm64-apple-darwin20.0.0-clang
 CXX=		arm64-apple-darwin20.0.0-clang++
 MAINCC=		$(CC)
 LINKCC=		$(PURIFY) $(MAINCC)
-AR=		/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_16pxg4ho0y/croot/python-split_1727968619061/_build_env/bin/arm64-apple-darwin20.0.0-llvm-ar
+AR=		/Users/runner/miniforge3/conda-bld/python-split_1632942672842/_build_env/bin/arm64-apple-darwin20.0.0-llvm-ar
 READELF=	:
 SOABI=		cpython-38-darwin
 LDVERSION=	$(VERSION)$(ABIFLAGS)
@@ -48,7 +48,7 @@ GITTAG=
 GITBRANCH=	
 PGO_PROF_GEN_FLAG=-fprofile-instr-generate
 PGO_PROF_USE_FLAG=-fprofile-instr-use=code.profclangd
-LLVM_PROF_MERGER=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_16pxg4ho0y/croot/python-split_1727968619061/_build_env/bin/llvm-profdata merge -output=code.profclangd *.profclangr
+LLVM_PROF_MERGER=/Users/runner/miniforge3/conda-bld/python-split_1632942672842/_build_env/bin/llvm-profdata merge -output=code.profclangd *.profclangr
 LLVM_PROF_FILE=LLVM_PROFILE_FILE="code-%p.profclangr"
 LLVM_PROF_ERR=no
 DTRACE=         
@@ -73,7 +73,7 @@ INSTALL_DATA=	${INSTALL} -m 644
 # rather than figuring out exactly which, we always give them executable mode.
 INSTALL_SHARED= ${INSTALL} -m 755
 
-MKDIR_P=	/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_16pxg4ho0y/croot/python-split_1727968619061/work/install-sh -c -d
+MKDIR_P=	/Users/runner/miniforge3/conda-bld/python-split_1632942672842/work/install-sh -c -d
 
 MAKESETUP=      $(srcdir)/Modules/makesetup
 
@@ -81,7 +81,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -fwrapv -O2 -Wall
 BASECFLAGS=	 -Wno-unused-result -Wsign-compare -Wunreachable-code
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/vishal/Desktop/project/ML_project/venv/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_16pxg4ho0y/croot/python-split_1727968619061/work=/usr/local/src/conda/python-3.8.20 -fdebug-prefix-map=/Users/vishal/Desktop/project/ML_project/venv=/usr/local/src/conda-prefix -arch arm64 
+CONFIGURE_CFLAGS=	-isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/vishal/Desktop/project/ML_Project/venv/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/python-split_1632942672842/work=/usr/local/src/conda/python-3.8.12 -fdebug-prefix-map=/Users/vishal/Desktop/project/ML_Project/venv=/usr/local/src/conda-prefix -arch arm64 
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -90,8 +90,8 @@ CONFIGURE_CFLAGS_NODIST=  -Wl,-export_dynamic -g -std=c99 -Wextra -Wno-unused-re
 # Use it when a linker flag should _not_ be part of the distutils LDFLAGS
 # once Python is installed (bpo-35257)
 CONFIGURE_LDFLAGS_NODIST=  -Wl,-export_dynamic -g
-CONFIGURE_CPPFLAGS=	-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -D_FORTIFY_SOURCE=2 -isystem /Users/vishal/Desktop/project/ML_project/venv/include -mmacosx-version-min=11.1 -I/Users/vishal/Desktop/project/ML_project/venv/include
-CONFIGURE_LDFLAGS=	-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib -L/Users/vishal/Desktop/project/ML_project/venv/lib
+CONFIGURE_CPPFLAGS=	-isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -D_FORTIFY_SOURCE=2 -isystem /Users/vishal/Desktop/project/ML_Project/venv/include -mmacosx-version-min=11.0 -I/Users/vishal/Desktop/project/ML_Project/venv/include
+CONFIGURE_LDFLAGS=	-isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib -L/Users/vishal/Desktop/project/ML_Project/venv/lib
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -130,7 +130,7 @@ MULTIARCH=	darwin
 MULTIARCH_CPPFLAGS = -DMULTIARCH=\"darwin\"
 
 # Install prefix for architecture-independent files
-prefix=		/Users/vishal/Desktop/project/ML_project/venv
+prefix=		/Users/vishal/Desktop/project/ML_Project/venv
 
 # Install prefix for architecture-dependent files
 exec_prefix=	${prefix}
@@ -174,7 +174,7 @@ PYTHONFRAMEWORKINSTALLDIR=
 # Deployment target selected during configure, to be checked
 # by distutils. The export statement is needed to ensure that the
 # deployment target is active during build.
-MACOSX_DEPLOYMENT_TARGET=11.1
+MACOSX_DEPLOYMENT_TARGET=11.0
 export MACOSX_DEPLOYMENT_TARGET
 
 # Option to install to strip binaries
@@ -196,9 +196,9 @@ RUNSHARED=
 ENSUREPIP=      no
 
 # OpenSSL options for setup.py so sysconfig can pick up AC_SUBST() vars.
-OPENSSL_INCLUDES=-I/Users/vishal/Desktop/project/ML_project/venv/include
+OPENSSL_INCLUDES=-I/Users/vishal/Desktop/project/ML_Project/venv/include
 OPENSSL_LIBS=-lssl -lcrypto
-OPENSSL_LDFLAGS=-L/Users/vishal/Desktop/project/ML_project/venv/lib
+OPENSSL_LDFLAGS=-L/Users/vishal/Desktop/project/ML_Project/venv/lib
 
 # Modes for directories, executables and data files created by the
 # install process.  Default to user-only-writable for all file types.
@@ -207,7 +207,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/Users/vishal/Desktop/project/ML_project/venv' '--build=arm64-apple-darwin20.0.0' '--host=arm64-apple-darwin20.0.0' '--enable-ipv6' '--with-ensurepip=no' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-openssl=/Users/vishal/Desktop/project/ML_project/venv' '--with-tcltk-includes=-I/Users/vishal/Desktop/project/ML_project/venv/include' '--with-tcltk-libs=-L/Users/vishal/Desktop/project/ML_project/venv/lib -ltcl8.6 -ltk8.6' '--with-lto' '--enable-optimizations' '-oldincludedir=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_16pxg4ho0y/croot/python-split_1727968619061/_build_env/arm64-apple-darwin20.0.0/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=arm64-apple-darwin20.0.0' 'host_alias=arm64-apple-darwin20.0.0' 'MACHDEP=darwin' 'CC=arm64-apple-darwin20.0.0-clang' 'CFLAGS=-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/vishal/Desktop/project/ML_project/venv/include -fdebug-prefix-map=/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_16pxg4ho0y/croot/python-split_1727968619061/work=/usr/local/src/conda/python-3.8.20 -fdebug-prefix-map=/Users/vishal/Desktop/project/ML_project/venv=/usr/local/src/conda-prefix -arch arm64 ' 'LDFLAGS=-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/vishal/Desktop/project/ML_project/venv/lib -L/Users/vishal/Desktop/project/ML_project/venv/lib' 'CPPFLAGS=-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -D_FORTIFY_SOURCE=2 -isystem /Users/vishal/Desktop/project/ML_project/venv/include -mmacosx-version-min=11.1 -I/Users/vishal/Desktop/project/ML_project/venv/include' 'PKG_CONFIG_PATH=/Users/vishal/Desktop/project/ML_project/venv/lib/pkgconfig'
+CONFIG_ARGS=	 '--prefix=/Users/vishal/Desktop/project/ML_Project/venv' '--build=x86_64-apple-darwin13.4.0' '--host=arm64-apple-darwin20.0.0' '--enable-ipv6' '--with-ensurepip=no' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/Users/vishal/Desktop/project/ML_Project/venv/include' '--with-tcltk-libs=-L/Users/vishal/Desktop/project/ML_Project/venv/lib -ltcl8.6 -ltk8.6' '--with-lto' '-oldincludedir=/Users/runner/miniforge3/conda-bld/python-split_1632942672842/_build_env/arm64-apple-darwin20.0.0/sysroot/usr/include' '--disable-shared' 'build_alias=x86_64-apple-darwin13.4.0' 'host_alias=arm64-apple-darwin20.0.0' 'MACHDEP=darwin' 'CC=arm64-apple-darwin20.0.0-clang' 'CFLAGS=-isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/vishal/Desktop/project/ML_Project/venv/include -fdebug-prefix-map=/Users/runner/miniforge3/conda-bld/python-split_1632942672842/work=/usr/local/src/conda/python-3.8.12 -fdebug-prefix-map=/Users/vishal/Desktop/project/ML_Project/venv=/usr/local/src/conda-prefix -arch arm64 ' 'LDFLAGS=-isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/vishal/Desktop/project/ML_Project/venv/lib -L/Users/vishal/Desktop/project/ML_Project/venv/lib' 'CPPFLAGS=-isysroot /Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk -D_FORTIFY_SOURCE=2 -isystem /Users/vishal/Desktop/project/ML_Project/venv/include -mmacosx-version-min=11.0 -I/Users/vishal/Desktop/project/ML_Project/venv/include' 'PKG_CONFIG_PATH=/Users/vishal/Desktop/project/ML_Project/venv/lib/pkgconfig'
 
 
 # Subdirectories with code
@@ -247,17 +247,17 @@ LIBOBJS=
 PYTHON=		python$(EXE)
 BUILDPYTHON=	python$(BUILDEXE)
 
-PYTHON_FOR_REGEN=python3
-UPDATE_FILE=python3 $(srcdir)/Tools/scripts/update_file.py
-PY_BUILD_ENVIRON=
-PYTHON_FOR_BUILD=./$(BUILDPYTHON) -E
+PYTHON_FOR_REGEN=python3.8
+UPDATE_FILE=python3.8 $(srcdir)/Tools/scripts/update_file.py
+PY_BUILD_ENVIRON=_PYTHON_PROJECT_BASE=$(abs_builddir) _PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATFORM) PYTHONPATH=$(shell test -f pybuilddir.txt && echo $(abs_builddir)/`cat pybuilddir.txt`:)$(srcdir)/Lib _PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_$(ABIFLAGS)_$(MACHDEP)_$(MULTIARCH)
+PYTHON_FOR_BUILD=python3.8
 _PYTHON_HOST_PLATFORM=darwin-arm64
-BUILD_GNU_TYPE=	arm64-apple-darwin20.0.0
+BUILD_GNU_TYPE=	x86_64-apple-darwin13.4.0
 HOST_GNU_TYPE=	arm64-apple-darwin20.0.0
 
 # Tcl and Tk config info from --with-tcltk-includes and -libs options
-TCLTK_INCLUDES=	-I/Users/vishal/Desktop/project/ML_project/venv/include
-TCLTK_LIBS=	-L/Users/vishal/Desktop/project/ML_project/venv/lib -ltcl8.6 -ltk8.6
+TCLTK_INCLUDES=	-I/Users/vishal/Desktop/project/ML_Project/venv/include
+TCLTK_LIBS=	-L/Users/vishal/Desktop/project/ML_Project/venv/lib -ltcl8.6 -ltk8.6
 
 # The task to run while instrumented when building the profile-opt target.
 # To speed up profile generation, we don't run the full unit test suite
@@ -284,7 +284,6 @@ MACHDESTLIB=$(BINLIBDEST)
 DESTLIB=$(LIBDEST)
 
 
-
 ##########################################################################
 # Modules
 MODULE_OBJS=	\
@@ -306,7 +305,7 @@ IO_OBJS=	\
 
 ##########################################################################
 
-LIBFFI_INCLUDEDIR=	/Users/vishal/Desktop/project/ML_project/venv/include
+LIBFFI_INCLUDEDIR=	/Users/vishal/Desktop/project/ML_Project/venv/include
 
 ##########################################################################
 # Parser
@@ -462,7 +461,7 @@ DTRACE_DEPS = \
 # Rules
 
 # Default target
-all:		profile-opt
+all:		build_all
 build_all:	check-clean-src $(BUILDPYTHON) oldsharedmods sharedmods gdbhooks \
 		Programs/_testembed python-config
 
@@ -508,7 +507,7 @@ profile-run-stamp:
 	touch $@
 
 build_all_generate_profile:
-	$(MAKE) build_all CFLAGS_NODIST="$(CFLAGS_NODIST) $(PGO_PROF_GEN_FLAG)" LDFLAGS_NODIST="$(LDFLAGS_NODIST) $(PGO_PROF_GEN_FLAG)" LIBS="$(LIBS)"
+	$(MAKE) all CFLAGS_NODIST="$(CFLAGS_NODIST) $(PGO_PROF_GEN_FLAG)" LDFLAGS_NODIST="$(LDFLAGS_NODIST) $(PGO_PROF_GEN_FLAG)" LIBS="$(LIBS)"
 
 run_profile_task:
 	@ # FIXME: can't run for a cross build
@@ -522,14 +521,14 @@ build_all_merge_profile:
 profile-opt: profile-run-stamp
 	@echo "Rebuilding with profile guided optimizations:"
 	-rm -f profile-clean-stamp
-	$(MAKE) build_all CFLAGS_NODIST="$(CFLAGS_NODIST) $(PGO_PROF_USE_FLAG)" LDFLAGS_NODIST="$(LDFLAGS_NODIST)"
+	$(MAKE) all CFLAGS_NODIST="$(CFLAGS_NODIST) $(PGO_PROF_USE_FLAG)" LDFLAGS_NODIST="$(LDFLAGS_NODIST)"
 
 # Compile and run with gcov
 .PHONY=coverage coverage-lcov coverage-report
 coverage:
 	@echo "Building with support for coverage checking:"
 	$(MAKE) clean profile-removal
-	$(MAKE) build_all CFLAGS="$(CFLAGS) -O0 -pg -fprofile-arcs -ftest-coverage" LIBS="$(LIBS) -lgcov"
+	$(MAKE) all CFLAGS="$(CFLAGS) -O0 -pg -fprofile-arcs -ftest-coverage" LIBS="$(LIBS) -lgcov"
 
 coverage-lcov:
 	@echo "Creating Coverage HTML report with LCOV:"
@@ -1139,7 +1138,7 @@ cleantest: build_all
 
 # Run a basic set of regression tests.
 # This excludes some tests that are particularly resource-intensive.
-test:		build_all platform
+test:		all platform
 		$(TESTRUNNER) $(TESTOPTS)
 
 # Run the full test suite twice - once without .pyc files, and once with.
@@ -1149,7 +1148,7 @@ test:		build_all platform
 # the bytecode read from a .pyc file had the bug, sometimes the directly
 # generated bytecode.  This is sometimes a very shy bug needing a lot of
 # sample data.
-testall:	build_all platform
+testall:	all platform
 		-find $(srcdir)/Lib -name '*.py[co]' -print | xargs rm -f
 		$(TESTPYTHON) -E $(srcdir)/Lib/compileall.py
 		-find $(srcdir)/Lib -name '*.py[co]' -print | xargs rm -f
@@ -1158,7 +1157,7 @@ testall:	build_all platform
 
 # Run the test suite for both architectures in a Universal build on OSX.
 # Must be run on an Intel box.
-testuniversal:	build_all platform
+testuniversal:	all platform
 		@if [ `arch` != 'i386' ]; then \
 			echo "This can only be used on OSX/i386" ;\
 			exit 1 ;\
@@ -1184,7 +1183,7 @@ QUICKTESTOPTS=	$(TESTOPTS) -x test_subprocess test_io test_lib2to3 \
 		test_multiprocessing_forkserver \
 		test_mailbox test_socket test_poll \
 		test_select test_zipfile test_concurrent_futures
-quicktest:	build_all platform
+quicktest:	all platform
 		$(TESTRUNNER) $(QUICKTESTOPTS)
 
 # SSL tests
@@ -1583,7 +1582,7 @@ LIBPL=		$(prefix)/lib/python3.8/config-$(VERSION)$(ABIFLAGS)-darwin
 # pkgconfig directory
 LIBPC=		$(LIBDIR)/pkgconfig
 
-libainstall:	build_all python-config
+libainstall:	all python-config
 	@for i in $(LIBDIR) $(LIBPL) $(LIBPC); \
 	do \
 		if test ! -d $(DESTDIR)$$i; then \
@@ -1755,18 +1754,6 @@ autoconf:
 	# Regenerate pyconfig.h.in from configure.ac using autoheader
 	(cd $(srcdir); autoheader -Wall)
 
-# See https://github.com/tiran/cpython_autoconf container
-.PHONY: regen-configure
-regen-configure:
-	@if command -v podman >/dev/null; then RUNTIME="podman"; else RUNTIME="docker"; fi; \
-	if ! command -v $$RUNTIME; then echo "$@ needs either Podman or Docker container runtime." >&2; exit 1; fi; \
-	if command -v selinuxenabled >/dev/null && selinuxenabled; then OPT=":Z"; fi; \
-	# Manifest corresponds with tag '269' \
-	CPYTHON_AUTOCONF_MANIFEST="sha256:f370fee95eefa3d57b00488bce4911635411fa83e2d293ced8cf8a3674ead939" \
-	CMD="$$RUNTIME run --rm --pull=missing -v $(abs_srcdir):/src$$OPT quay.io/tiran/cpython_autoconf@$$CPYTHON_AUTOCONF_MANIFEST"; \
-	echo $$CMD; \
-	$$CMD || exit $?
-
 # Create a tags file for vi
 tags::
 	ctags -w $(srcdir)/Include/*.h $(srcdir)/Include/cpython/*.h $(srcdir)/Include/internal/*.h
@@ -1853,7 +1840,7 @@ distclean: clobber
 				     -exec rm -f {} ';'
 
 # Check that all symbols exported by libpython start with "Py" or "_Py"
-smelly: build_all
+smelly: all
 	$(RUNSHARED) ./$(BUILDPYTHON) Tools/scripts/smelly.py
 
 # Find files with funny names
@@ -1888,7 +1875,7 @@ funny:
 		-o -print
 
 # Perform some verification checks on any modified files.
-patchcheck: build_all
+patchcheck: all
 	$(RUNSHARED) ./$(BUILDPYTHON) $(srcdir)/Tools/scripts/patchcheck.py
 
 # Dependencies

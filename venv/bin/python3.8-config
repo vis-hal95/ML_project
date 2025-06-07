@@ -1,4 +1,4 @@
-#!/Users/vishal/Desktop/project/ML_project/venv/bin/python3.8
+#!/Users/vishal/Desktop/project/ML_Project/venv/bin/python3.8
 # -*- python -*-
 
 # Keep this script in sync with python-config.sh.in
